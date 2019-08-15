@@ -50,7 +50,7 @@ class ErrorCodeManager(object):
             'handlers': {
                 # 输出到控制台
                 'console': {
-                    'level': 'INFO',  # 输出信息的最低级别
+                    'level': 'DEBUG',  # 输出信息的最低级别
                     'class': 'logging.StreamHandler',
                     'formatter': 'standard',  # 使用standard格式
                     'filters': ['require_debug_true', ],  # 仅当 DEBUG = True 该处理器才生效
@@ -111,6 +111,8 @@ class ErrorCodeManager(object):
 
         self.errmap = {}
         self.new_error_code_dict = {}
+        # 设置一个集合用于存最新的错误码
+        self.errorcodeset=set()
 
     def search_all_files(self, base):
         """
@@ -328,10 +330,17 @@ class ErrorCodeManager(object):
             newErrorCode = self.generat_new_error_code(errorcode)
             self.logger.debug(newErrorCode)
             self.new_error_code_dict[newErrorCode] = res[1]
+            # 将增量错误码加入集合
+            self.errorcodeset.add(newErrorCode)
+            tmp = new_msg
+            new_msg = tmp[0:len(tmp)-6]+r'// "'+res[1]+'"\n'+tmp
             if len(res) > 2:
                 new_msg += '"' + newErrorCode + '"' + res[2] + ');'
             else:
                 new_msg += '"' + newErrorCode + '");'
+        else:
+            # 将存量错误码加入集合
+            self.errorcodeset.add(errorcode)
         self.logger.debug(new_msg)
 
         return new_msg
@@ -401,6 +410,11 @@ class ErrorCodeManager(object):
         collumnflag = '|!'
         rowflag = '!@!'
         for row in cur:
+            # 判断当前错误码是否还在使用，若未使用，则从数据库清除
+            if row[2] not in self.errorcodeset:
+                sql = "delete from SC_MSG_CODE where code='" + row[2] + "';"
+                cur.execute(sql)
+                self.logger.debug(sql)
             res = ''
             for tmp in row:
                 res += collumnflag + tmp
