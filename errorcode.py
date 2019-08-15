@@ -434,6 +434,10 @@ class ErrorCodeManager(object):
         self.logger.info("扫描文件信息")
         filenames = self.search_all_files(self.srcPath)
         filenames = [filename for filename in filenames if filename.lower().endswith('.java')]
+        # 若为空目录，则直接返回
+        if len(filenames):
+            return
+
         for filename in filenames:
             self.generate_new_error_code_file(filename)
 
