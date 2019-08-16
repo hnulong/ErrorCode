@@ -49,7 +49,7 @@ class MsgBox:
         self.outVar.set(DEF_PATH)
         Entry(fm2, textvariable=self.outVar, width=50).grid(row=1, column=1)
         Button(fm2, text='另存为', command=self.selectOutPathEvent).grid(row=1, column=2)
-        Button(fm2, text='执行', command=self.execute).grid(row=1, column=3)
+        Button(fm2, text='执行', command=self.execute).grid(row=1, column=3,padx=10)
         fm2.pack(fill=BOTH, expand=NO,pady=20)
         #
         #
@@ -66,7 +66,7 @@ class MsgBox:
         self.dbFilenameEnt.set(DEF_PATH)
         Entry(fm3, textvariable=self.dbFilenameEnt, width=50).grid(row=1, column=1)
         Button(fm3, text='导入', command=self.openDbFile).grid(row=1, column=2)
-        Button(fm3, text='导出', command=self.saveDbFile).grid(row=1, column=3)
+        Button(fm3, text='导出', command=self.saveDbFile).grid(row=1, column=3,padx=10)
         fm3.pack(fill=BOTH, expand=NO,pady=3)
 
 
