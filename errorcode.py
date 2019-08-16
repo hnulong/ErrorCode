@@ -192,19 +192,27 @@ class ErrorCodeManager(object):
         fixLen 每个模块的固定位数
         """
         self.errmap.clear()
+        self.errorcodeset.clear()
+        self.new_error_code_dict.clear()
         conn = sqlite3.connect(self.errCodeFile)
         cur = conn.cursor()
-        sql = '''select * from SC_MSG_CODE'''
+        sql = '''select * from SC_CODE_COUNT'''
         cur.execute(sql)
         for row in cur:
             self.logger.debug(row)
-            errcode = row[2]
+            errcode = row[0]
             # 记录当前编码的最新位置
             if errcode[:self.fixlen] not in self.errmap:
                 self.errmap[errcode[:self.fixlen]] = 0
-            n = self.to_num(errcode[self.fixlen:])
-            if self.errmap[errcode[:self.fixlen]] < n:
-                self.errmap[errcode[:self.fixlen]] = n
+            self.errmap[errcode[:self.fixlen]] = row[1]
+
+            # errcode = row[2]
+            # # 记录当前编码的最新位置
+            # if errcode[:self.fixlen] not in self.errmap:
+            #     self.errmap[errcode[:self.fixlen]] = 0
+            # n = self.to_num(errcode[self.fixlen:])
+            # if self.errmap[errcode[:self.fixlen]] < n:
+            #     self.errmap[errcode[:self.fixlen]] = n
         cur.close()
         conn.close()
 
@@ -340,6 +348,7 @@ class ErrorCodeManager(object):
                 new_msg += '"' + newErrorCode + '");'
         else:
             # 将存量错误码加入集合
+            self.logger.debug(errorcode)
             self.errorcodeset.add(errorcode)
         self.logger.debug(new_msg)
 
@@ -370,6 +379,24 @@ class ErrorCodeManager(object):
             for sql in sqlset:
                 self.logger.debug(sql)
                 c.execute(sql)
+            conn.commit()
+        finally:
+            conn.close()
+    def update_code_index(self):
+        """
+
+        :return:
+        """
+        self.logger.info('update SC_CODE_COUNT')
+        conn = sqlite3.connect(self.errCodeFile)
+        c = conn.cursor()
+        try:
+            for k, v in self.errmap.items():
+                sql = "delete from SC_CODE_COUNT where code=?"
+                c.execute(sql, [k])
+                sql = "insert into SC_CODE_COUNT ( code, cnt) values (?, ?)"
+                self.logger.debug(sql)
+                c.execute(sql, [k, v])
             conn.commit()
         finally:
             conn.close()
@@ -409,16 +436,22 @@ class ErrorCodeManager(object):
         f = open(bcpfilename, 'w', encoding='utf-8')
         collumnflag = '|!'
         rowflag = '!@!'
+        deleteset=[]
         for row in cur:
             # 判断当前错误码是否还在使用，若未使用，则从数据库清除
             if row[2] not in self.errorcodeset:
                 sql = "delete from SC_MSG_CODE where code='" + row[2] + "';"
-                cur.execute(sql)
+                deleteset.append(sql)
                 self.logger.debug(sql)
-            res = ''
-            for tmp in row:
-                res += collumnflag + tmp
-            f.write(rowflag + res + '\n')
+            else:
+                res = ''
+                for tmp in row:
+                    res += collumnflag + tmp
+                f.write(rowflag + res + '\n')
+
+        # 删除已经无效的错误码记录
+        for line in deleteset:
+            cur.execute(line)
 
         cur.close()
         conn.close()
@@ -435,7 +468,8 @@ class ErrorCodeManager(object):
         filenames = self.search_all_files(self.srcPath)
         filenames = [filename for filename in filenames if filename.lower().endswith('.java')]
         # 若为空目录，则直接返回
-        if len(filenames):
+        if len(filenames) ==0 :
+            self.logger.info('empty directory!')
             return
 
         for filename in filenames:
@@ -458,6 +492,7 @@ class ErrorCodeManager(object):
         f.close()
 
         # 写入数据库
+        self.update_code_index()
         self.logger.info("导出数据库文件...")
         self.operate_db()
         self.bcp_db(os.path.join(self.newScrPath, 'bcp.txt'))
