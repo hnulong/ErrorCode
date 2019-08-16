@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 # __author__ = 'Code~'
 
+import os
 import traceback
 import tkinter
 from tkinter import *
@@ -100,7 +101,7 @@ class MsgBox:
 
         :return:
         """
-        newDir = filedialog.asksaveasfilename(initialdir=DEF_PATH)
+        newDir = filedialog.askdirectory(initialdir=DEF_PATH, title='打开目录')
         if len(newDir) == 0:
             return
         self.outVar.set(newDir)
@@ -155,9 +156,15 @@ class MsgBox:
         tkinter.messagebox.showinfo('提示', " 导入数据成功！")
 
     def saveDbFile(self):
-        filename='bcp.txt'
-        if len(self.dbFilenameEnt.get()) > 0:
-            filename=self.dbFilenameEnt
+        """
+
+        :return:
+        """
+        filename = filedialog.askopenfilename(initialdir=DEF_PATH, title='打开新文件')
+        if len(filename) == 0:
+            filename = os.path.join(os.path.curdir,'bcp.txt')
+        self.dbFilenameEnt.set(filename)
+        self.listview.insert(0,"导出文件路径为%s" % filename)
 
         self.codemanager.bcp_db(filename)
         tkinter.messagebox.showinfo('提示', " 导出数据成功！")
