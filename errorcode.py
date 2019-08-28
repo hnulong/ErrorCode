@@ -7,6 +7,7 @@ import sqlite3
 import logging
 import logging.config
 from logging import handlers
+from mydialog import MyDialog
 
 """
 错误码的生成与管理
@@ -112,7 +113,7 @@ class ErrorCodeManager(object):
         self.errmap = {}
         self.new_error_code_dict = {}
         # 设置一个集合用于存最新的错误码
-        self.errorcodeset=set()
+        self.errorcodeset = set()
 
     def search_all_files(self, base):
         """
@@ -288,7 +289,7 @@ class ErrorCodeManager(object):
         """
         self.logger.debug(msg)
         profix = msg[:self.fixlen]
-        self.logger.debug([profix,self.fixlen])
+        self.logger.debug([profix, self.fixlen])
         if profix not in self.errmap:
             self.errmap[profix] = 0
         self.errmap[profix] += 1
@@ -341,7 +342,7 @@ class ErrorCodeManager(object):
             # 将增量错误码加入集合
             self.errorcodeset.add(newErrorCode)
             tmp = new_msg
-            new_msg = tmp[0:len(tmp)-6]+r'// "'+res[1]+'"\n'+tmp
+            new_msg = tmp[0:len(tmp) - 6] + r'// "' + res[1] + '"\n' + tmp
             if len(res) > 2:
                 new_msg += '"' + newErrorCode + '"' + res[2] + ');'
             else:
@@ -382,6 +383,7 @@ class ErrorCodeManager(object):
             conn.commit()
         finally:
             conn.close()
+
     def update_code_index(self):
         """
 
@@ -436,7 +438,7 @@ class ErrorCodeManager(object):
         f = open(bcpfilename, 'w', encoding='utf-8')
         collumnflag = '|!'
         rowflag = '!@!'
-        deleteset=[]
+        deleteset = []
         for row in cur:
             # 判断当前错误码是否还在使用，若未使用，则从数据库清除
             if row[2] not in self.errorcodeset:
@@ -467,17 +469,13 @@ class ErrorCodeManager(object):
         self.logger.info("扫描文件信息")
         filenames = self.search_all_files(self.srcPath)
         filenames = [filename for filename in filenames if filename.lower().endswith('.java')]
-        # 若为空目录，则直接返回
-        if len(filenames) ==0 :
-            self.logger.info('empty directory!')
-            return
 
-        for filename in filenames:
-            self.generate_new_error_code_file(filename)
+        return filenames
 
+    def export_info(self):
         # 将新生成的错误码信息写入文件作为变更的脚本
         self.logger.info('将新生成的错误码信息写入文件作为变更的脚本...')
-        f = open(os.path.join(self.newScrPath, 'SC_MSG_CODE.txt'), 'w', encoding='utf-8')
+        f = open(os.path.join(self.newScrPath, 'NEW_MSG_CODE.txt'), 'w', encoding='utf-8')
         for k, v in self.new_error_code_dict.items():
             # logger.info([k,v])
             v = str(v).replace("'", "''")

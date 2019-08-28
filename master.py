@@ -5,7 +5,7 @@ import os
 import traceback
 import tkinter
 from tkinter import *
-from tkinter import filedialog
+from tkinter import filedialog, ttk
 from tkinter import messagebox
 # from . import  errorcode
 from errorcode import ErrorCodeManager
@@ -17,7 +17,7 @@ DEF_PATH = r''
 class MsgBox:
     def __init__(self):
         #
-        self.codemanager= ErrorCodeManager()
+        self.codemanager = ErrorCodeManager()
         # 目录相关
         self.root = tkinter.Tk()
         self.root.title("错误码生成工具")
@@ -49,11 +49,11 @@ class MsgBox:
         self.outVar.set(DEF_PATH)
         Entry(fm2, textvariable=self.outVar, width=50).grid(row=1, column=1)
         Button(fm2, text='另存为', command=self.selectOutPathEvent).grid(row=1, column=2)
-        Button(fm2, text='执行', command=self.execute).grid(row=1, column=3,padx=10)
-        fm2.pack(fill=BOTH, expand=NO,pady=20)
+        Button(fm2, text='执行', command=self.execute).grid(row=1, column=3, padx=10)
+        fm2.pack(fill=BOTH, expand=NO, pady=20)
         #
         #
-        self.listview=Listbox()
+        self.listview = Listbox()
         # listview.grid(row=3,columnspan=3, sticky='W')
         self.listview.pack(side=TOP, anchor=N, fill=BOTH, expand=YES)
         # for i in range(20):
@@ -66,9 +66,8 @@ class MsgBox:
         self.dbFilenameEnt.set(DEF_PATH)
         Entry(fm3, textvariable=self.dbFilenameEnt, width=50).grid(row=1, column=1)
         Button(fm3, text='导入', command=self.openDbFile).grid(row=1, column=2)
-        Button(fm3, text='导出', command=self.saveDbFile).grid(row=1, column=3,padx=10)
-        fm3.pack(fill=BOTH, expand=NO,pady=3)
-
+        Button(fm3, text='导出', command=self.saveDbFile).grid(row=1, column=3, padx=10)
+        fm3.pack(fill=BOTH, expand=NO, pady=3)
 
     # 打开文件
     def openFileEvent(self):
@@ -105,7 +104,7 @@ class MsgBox:
         if len(newDir) == 0:
             return
         self.outVar.set(newDir)
-        self.codemanager.newScrPath=newDir
+        self.codemanager.newScrPath = newDir
         self.codemanager.logger.info("dest:%s" % self.codemanager.newScrPath)
 
     def execute(self):
@@ -115,7 +114,30 @@ class MsgBox:
         """
         self.listview.insert(0, "开始对***00000错误码进行编码")
         try:
-            self.codemanager.execute()
+            mpb = ttk.Progressbar(self.root, orient="horizontal", length=200, mode="determinate")
+            mpb.pack()
+            mpb["maximum"] = 100
+            mpb["value"] = 0
+            up_label = Label(self.root, text='正在执行...', fg='red')
+            up_label.pack()
+
+            filenames = self.codemanager.execute()
+            # 若为空目录，则直接返回
+            if len(filenames) == 0:
+                self.codemanager.logger.info('empty directory!')
+                return
+
+            index = 0
+            for filename in filenames:
+                self.codemanager.generate_new_error_code_file(filename)
+                mpb["value"] = (index * 100) // len(filenames) + 1
+                self.root.update()
+                index += 1
+
+            self.codemanager.export_info()
+            # 销毁进度条
+            mpb.pack_forget()
+            up_label.pack_forget()
             self.listview.insert(0, "执行完毕！")
             tkinter.messagebox.showinfo('提示', "执行完毕！")
         except:
@@ -130,7 +152,7 @@ class MsgBox:
         if len(filename) == 0:
             return
         self.dbFilenameEnt.set(filename)
-        self.listview.insert(0, "打开的数据库文件名为：%s" %filename)
+        self.listview.insert(0, "打开的数据库文件名为：%s" % filename)
 
         # 读取文件数据
         self.listview.insert(0, " 开始导入数据...")
@@ -139,7 +161,7 @@ class MsgBox:
         # if filename.split('.')[1] == 'sql':
         srcFile = open(filename, mode='r', encoding='utf-8')
         data = srcFile.readlines()
-        sqlset=[]
+        sqlset = []
         for line in data:
             # template = re.compile(r"(\w+)'(\w+)")
             # while line != re.sub(template, r"\1''\2", line):
@@ -162,9 +184,9 @@ class MsgBox:
         """
         filename = filedialog.askopenfilename(initialdir=DEF_PATH, title='打开新文件')
         if len(filename) == 0:
-            filename = os.path.join(os.path.curdir,'bcp.txt')
+            filename = os.path.join(os.path.curdir, 'bcp.txt')
         self.dbFilenameEnt.set(filename)
-        self.listview.insert(0,"导出文件路径为%s" % filename)
+        self.listview.insert(0, "导出文件路径为%s" % filename)
 
         self.codemanager.bcp_db(filename)
         tkinter.messagebox.showinfo('提示', " 导出数据成功！")
