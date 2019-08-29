@@ -7,7 +7,6 @@ import sqlite3
 import logging
 import logging.config
 from logging import handlers
-from mydialog import MyDialog
 
 """
 错误码的生成与管理
