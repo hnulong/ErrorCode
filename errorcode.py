@@ -341,7 +341,10 @@ class ErrorCodeManager(object):
             # 将增量错误码加入集合
             self.errorcodeset.add(newErrorCode)
             tmp = new_msg
-            new_msg = tmp[0:len(tmp) - 6] + r'// "' + res[1] + '"\n' + tmp
+            if len(tmp) - 6 < 0:
+                new_msg = r'// "' + res[1] + '"\n' + tmp
+            else:
+                new_msg = tmp[0:len(tmp) - 6] + r'// "' + res[1] + '"\n' + tmp
             if len(res) > 2:
                 new_msg += '"' + newErrorCode + '"' + res[2] + ');'
             else:
