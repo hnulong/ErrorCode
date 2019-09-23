@@ -255,10 +255,10 @@ class ErrorCodeManager(object):
                 # 说明error or warn信息没有被分行
                 newMsg = data[n]
                 info = ''
-                if data[n].strip().endswith(');'):
+                if data[n].strip().find(');'):
                     newMsg = self.get_error_code_message(data[n], filename)
                 else:
-                    while not data[n].strip().endswith(');'):
+                    while not data[n].strip().finds(');'):
                         info += data[n].replace('\n', '').strip()
                         n += 1
                     info += data[n].replace('\n', '').strip()
