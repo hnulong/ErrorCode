@@ -250,7 +250,8 @@ class ErrorCodeManager(object):
         newData = []
         while n < len(data):
             # funcflag为error or warn
-            if data[n].strip().startswith('error(') or data[n].strip().startswith('warn('):
+            if data[n].strip().startswith('error(') or data[n].strip().startswith('warn(') or data[
+                n].strip().startswith('succ(') or data[n].strip().startswith('info('):
                 self.logger.debug(data[n])
                 # 说明error or warn信息没有被分行
                 newMsg = data[n]
@@ -305,8 +306,8 @@ class ErrorCodeManager(object):
         """
 
         modulename = os.path.splitext(os.path.split(filename)[1])[0][0:2]
-        self.logger.debug(filename)
-        self.logger.debug(msg)
+        self.logger.info(filename)
+        self.logger.info(msg)
         searchObj = re.search(r'[ew]\w+?\("([\w]*?)"\);$', msg, re.M | re.I)
         if searchObj:
             return msg
