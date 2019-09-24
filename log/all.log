@@ -1,0 +1,349 @@
+[2019-09-24 09:18:09,055][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/oibss/oibss/src/test
+[2019-09-24 09:18:42,090][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:20:13,899][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:20:17,379][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:20:17,380][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:20:17,392][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:20:17,393][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,393][default:INFO(310)]--[errorcode]:		succ("SOSCSGL021");
+
+[2019-09-24 09:20:17,394][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,394][default:INFO(310)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:20:17,394][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,395][default:INFO(328)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:20:17,395][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,395][default:INFO(310)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:20:17,395][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,395][default:INFO(328)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:20:17,396][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,396][default:INFO(310)]--[errorcode]:		succ("SOSCSGL023");
+
+[2019-09-24 09:20:17,396][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,396][default:INFO(310)]--[errorcode]:		succ("SOSCSGL024");
+
+[2019-09-24 09:20:17,396][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,396][default:INFO(310)]--[errorcode]:			error("EOSCSGL021");
+
+[2019-09-24 09:20:17,397][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,397][default:INFO(310)]--[errorcode]:				error("EOSCSGL024");
+
+[2019-09-24 09:20:17,397][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,397][default:INFO(310)]--[errorcode]:			error("EOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 09:20:17,398][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,398][default:INFO(310)]--[errorcode]:			warn("WOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 09:20:17,398][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,399][default:INFO(310)]--[errorcode]:		succ("SOSCSGL025");
+
+[2019-09-24 09:20:17,399][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,399][default:INFO(310)]--[errorcode]:			error("EOSCSGL022");
+
+[2019-09-24 09:20:17,399][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:20:17,399][default:INFO(310)]--[errorcode]:		succ("SOSCSGL026");
+
+[2019-09-24 09:20:17,458][default:INFO(480)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
+[2019-09-24 09:20:17,459][default:INFO(395)]--[errorcode]:update SC_CODE_COUNT
+[2019-09-24 09:20:17,461][default:INFO(497)]--[errorcode]:导出数据库文件...
+[2019-09-24 09:23:28,549][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:23:28,551][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:23:28,552][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:23:28,553][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,553][default:INFO(310)]--[errorcode]:		succ("SOSCSGL021");
+
+[2019-09-24 09:23:28,553][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,553][default:INFO(310)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:23:28,554][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,554][default:INFO(328)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:23:28,554][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,554][default:INFO(310)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:23:28,554][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,554][default:INFO(328)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:23:28,555][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,555][default:INFO(310)]--[errorcode]:		succ("SOSCSGL023");
+
+[2019-09-24 09:23:28,555][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,555][default:INFO(310)]--[errorcode]:		succ("SOSCSGL024");
+
+[2019-09-24 09:23:28,555][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,555][default:INFO(310)]--[errorcode]:			error("EOSCSGL021");
+
+[2019-09-24 09:23:28,556][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,556][default:INFO(310)]--[errorcode]:				error("EOSCSGL024");
+
+[2019-09-24 09:23:28,556][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,556][default:INFO(310)]--[errorcode]:			error("EOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 09:23:28,557][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,557][default:INFO(310)]--[errorcode]:			warn("WOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 09:23:28,557][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,557][default:INFO(310)]--[errorcode]:			succ("SOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 09:23:28,558][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,558][default:INFO(310)]--[errorcode]:			info("IOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 09:23:28,558][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,558][default:INFO(310)]--[errorcode]:		succ("SOSCSGL025");
+
+[2019-09-24 09:23:28,558][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,558][default:INFO(310)]--[errorcode]:			error("EOSCSGL022");
+
+[2019-09-24 09:23:28,559][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:23:28,559][default:INFO(310)]--[errorcode]:		succ("SOSCSGL026");
+
+[2019-09-24 09:23:28,619][default:INFO(480)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
+[2019-09-24 09:23:28,620][default:INFO(395)]--[errorcode]:update SC_CODE_COUNT
+[2019-09-24 09:23:28,625][default:INFO(497)]--[errorcode]:导出数据库文件...
+[2019-09-24 09:25:47,695][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:25:47,697][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:25:47,700][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:25:47,700][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:25:47,700][default:INFO(310)]--[errorcode]:		succ("SOSCSGL021");
+
+[2019-09-24 09:25:47,701][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:25:47,701][default:INFO(310)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:25:47,701][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:25:47,701][default:INFO(328)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:25:47,701][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:25:47,701][default:INFO(310)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:25:47,702][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:25:47,702][default:INFO(328)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:25:47,702][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:25:47,702][default:INFO(310)]--[errorcode]:		succ("SOSCSGL023");
+
+[2019-09-24 09:25:47,703][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:25:47,703][default:INFO(310)]--[errorcode]:		succ("SOSCSGL024");
+
+[2019-09-24 09:25:47,703][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:25:47,703][default:INFO(310)]--[errorcode]:			error("EOSCSGL021");
+
+[2019-09-24 09:26:17,268][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:26:28,571][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:26:29,616][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:26:29,616][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:26:29,619][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:26:29,620][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:26:29,620][default:INFO(310)]--[errorcode]:		succ("SOSCSGL021");
+
+[2019-09-24 09:26:29,621][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:26:29,621][default:INFO(310)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:26:29,622][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:26:29,623][default:INFO(328)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:26:29,623][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:26:29,623][default:INFO(310)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:26:29,623][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:26:29,623][default:INFO(328)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:26:29,623][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:26:29,623][default:INFO(310)]--[errorcode]:		succ("SOSCSGL023");
+
+[2019-09-24 09:26:29,624][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:26:29,624][default:INFO(310)]--[errorcode]:		succ("SOSCSGL024");
+
+[2019-09-24 09:26:29,624][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:26:29,624][default:INFO(310)]--[errorcode]:			error("EOSCSGL021");
+
+[2019-09-24 09:28:13,358][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:28:19,258][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:28:20,566][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:28:20,566][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:28:20,569][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:28:20,571][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:28:20,571][default:INFO(310)]--[errorcode]:		succ("SOSCSGL021");
+
+[2019-09-24 09:28:20,572][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:28:20,572][default:INFO(310)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:28:20,573][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:28:20,573][default:INFO(328)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:28:20,573][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:28:20,573][default:INFO(310)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:28:20,573][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:28:20,574][default:INFO(328)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:28:20,574][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:28:20,574][default:INFO(310)]--[errorcode]:		succ("SOSCSGL023");
+
+[2019-09-24 09:28:20,574][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:28:20,574][default:INFO(310)]--[errorcode]:		succ("SOSCSGL024");
+
+[2019-09-24 09:28:20,574][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:28:20,574][default:INFO(310)]--[errorcode]:			error("EOSCSGL021");
+
+[2019-09-24 09:30:22,938][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:30:28,359][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:30:29,378][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:30:29,378][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:30:29,380][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:30:29,381][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:30:29,381][default:INFO(310)]--[errorcode]:		succ("SOSCSGL021");
+
+[2019-09-24 09:30:29,382][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:30:29,382][default:INFO(310)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:30:29,383][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:30:29,383][default:INFO(328)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:30:29,383][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:30:29,383][default:INFO(310)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:30:29,383][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:30:29,384][default:INFO(328)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:30:29,384][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:30:29,384][default:INFO(310)]--[errorcode]:		succ("SOSCSGL023");
+
+[2019-09-24 09:30:29,384][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:30:29,384][default:INFO(310)]--[errorcode]:		succ("SOSCSGL024");
+
+[2019-09-24 09:30:29,384][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:30:29,384][default:INFO(310)]--[errorcode]:			error("EOSCSGL021");
+
+[2019-09-24 09:30:55,549][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:31:01,993][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:31:03,515][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:31:03,515][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:31:03,519][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:34:08,244][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:34:08,248][default:INFO(310)]--[errorcode]:		succ("SOSCSGL021");
+
+[2019-09-24 09:34:25,036][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:34:25,039][default:INFO(310)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:34:25,049][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:34:25,050][default:INFO(328)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:34:32,661][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:34:32,662][default:INFO(310)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:34:32,664][default:INFO(327)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:34:32,665][default:INFO(328)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 09:34:52,568][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:34:52,571][default:INFO(310)]--[errorcode]:		succ("SOSCSGL023");
+
+[2019-09-24 09:35:11,440][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:35:11,444][default:INFO(310)]--[errorcode]:		succ("SOSCSGL024");
+
+[2019-09-24 09:35:28,654][default:INFO(309)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 09:35:28,656][default:INFO(310)]--[errorcode]:			error("EOSCSGL021");
+
+[2019-09-24 09:40:12,658][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:40:12,659][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:40:12,662][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:40:40,004][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:40:45,563][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:40:49,236][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:40:49,237][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:40:49,238][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:45:38,043][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:45:43,841][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:45:45,320][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:45:45,320][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:45:45,327][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:49:04,187][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:49:08,926][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:49:10,134][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:49:10,135][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:49:10,138][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:50:40,804][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:50:47,160][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:50:48,236][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:50:48,236][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:50:48,237][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:53:20,614][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:53:20,615][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:53:20,616][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:53:25,415][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:53:25,415][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:53:25,417][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:54:06,689][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:54:12,154][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:54:13,456][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:54:13,456][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:54:13,458][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 09:57:17,080][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 09:57:24,731][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 09:57:26,058][default:INFO(466)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 09:57:26,058][default:INFO(467)]--[errorcode]:读取存量错误码信息
+[2019-09-24 09:57:26,059][default:INFO(472)]--[errorcode]:扫描文件信息
+[2019-09-24 10:00:50,987][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 10:00:56,690][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 10:00:57,826][default:INFO(469)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 10:00:57,826][default:INFO(470)]--[errorcode]:读取存量错误码信息
+[2019-09-24 10:00:57,828][default:INFO(475)]--[errorcode]:扫描文件信息
+[2019-09-24 10:04:46,695][default:INFO(94)]--[master]:src:/Users/wan/Documents/spring/1
+[2019-09-24 10:04:52,770][default:INFO(108)]--[master]:dest:/Users/wan/Documents/spring/xx
+[2019-09-24 10:04:53,789][default:INFO(469)]--[errorcode]:开始对***00000错误码进行编码
+[2019-09-24 10:04:53,790][default:INFO(470)]--[errorcode]:读取存量错误码信息
+[2019-09-24 10:04:53,792][default:INFO(475)]--[errorcode]:扫描文件信息
+[2019-09-24 10:04:53,793][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,793][default:INFO(313)]--[errorcode]:error("EOSCS00000","xxxxxxxx{0}","xfdlsjflsjfkls");
+[2019-09-24 10:04:53,795][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,795][default:INFO(313)]--[errorcode]:		succ("SOSCSGL021");
+
+[2019-09-24 10:04:53,795][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,795][default:INFO(313)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 10:04:53,795][default:INFO(330)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,795][default:INFO(331)]--[errorcode]:		succ("SOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 10:04:53,796][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,796][default:INFO(313)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 10:04:53,796][default:INFO(330)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,796][default:INFO(331)]--[errorcode]:		info("IOSCS00000"，"fdsafaflajl");
+
+[2019-09-24 10:04:53,796][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,796][default:INFO(313)]--[errorcode]:		succ("SOSCSGL023");
+
+[2019-09-24 10:04:53,796][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,796][default:INFO(313)]--[errorcode]:		succ("SOSCSGL024");
+
+[2019-09-24 10:04:53,797][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,797][default:INFO(313)]--[errorcode]:			error("EOSCSGL021");
+
+[2019-09-24 10:04:53,797][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,797][default:INFO(313)]--[errorcode]:error("EOSCS00000","xxxxxxxx{0}","xfdlsjflsjfkls");
+[2019-09-24 10:04:53,798][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,798][default:INFO(313)]--[errorcode]:			error("EOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 10:04:53,798][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,798][default:INFO(313)]--[errorcode]:			warn("WOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 10:04:53,799][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,799][default:INFO(313)]--[errorcode]:			succ("SOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 10:04:53,800][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,800][default:INFO(313)]--[errorcode]:			info("IOSCS00000","fdasfaflkkkkkkkkkkk");
+
+[2019-09-24 10:04:53,801][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,801][default:INFO(313)]--[errorcode]:		succ("SOSCSGL025");
+
+[2019-09-24 10:04:53,801][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,801][default:INFO(313)]--[errorcode]:			error("EOSCSGL022");
+
+[2019-09-24 10:04:53,801][default:INFO(312)]--[errorcode]:/Users/wan/Documents/spring/1/TermAccountService.java
+[2019-09-24 10:04:53,801][default:INFO(313)]--[errorcode]:		succ("SOSCSGL026");
+
+[2019-09-24 10:04:53,869][default:INFO(483)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
+[2019-09-24 10:04:53,871][default:INFO(398)]--[errorcode]:update SC_CODE_COUNT
+[2019-09-24 10:04:53,874][default:INFO(500)]--[errorcode]:导出数据库文件...

@@ -259,12 +259,15 @@ class ErrorCodeManager(object):
                 if data[n].strip().find(');') > -1:
                     newMsg = self.get_error_code_message(data[n], filename)
                 else:
-                    while not data[n].strip().finds(');') > -1:
+                    try:
+                        while data[n].strip().find(');') < 0:
+                            info += data[n].replace('\n', '').strip()
+                            n += 1
                         info += data[n].replace('\n', '').strip()
-                        n += 1
-                    info += data[n].replace('\n', '').strip()
-                    # print('******',info)
-                    newMsg = self.get_error_code_message(info, filename)
+                        # print('******',info)
+                        newMsg = self.get_error_code_message(info, filename)
+                    except:
+                        logger.info(data[n])
                 if not newMsg:
                     n += 1
                     continue
@@ -308,7 +311,7 @@ class ErrorCodeManager(object):
         modulename = os.path.splitext(os.path.split(filename)[1])[0][0:2]
         self.logger.info(filename)
         self.logger.info(msg)
-        searchObj = re.search(r'[ew]\w+?\("([\w]*?)"\);$', msg, re.M | re.I)
+        searchObj = re.search(r'[ewis]\w+?\("([\w]*?)"\);$', msg, re.M | re.I)
         if searchObj:
             return msg
         split_flag = '('
