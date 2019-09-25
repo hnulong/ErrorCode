@@ -135,13 +135,16 @@ class MsgBox:
                 index += 1
 
             self.codemanager.export_info()
-            # 销毁进度条
-            mpb.pack_forget()
-            up_label.pack_forget()
+
             self.listview.insert(0, "执行完毕！")
             tkinter.messagebox.showinfo('提示', "执行完毕！")
         except:
             tkinter.messagebox.showerror('错误', '出错了')
+        finally:
+            # 销毁进度条
+            mpb.pack_forget()
+            up_label.pack_forget()
+            return
 
     def openDbFile(self):
         """

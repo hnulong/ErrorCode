@@ -259,15 +259,13 @@ class ErrorCodeManager(object):
                 if data[n].strip().find(');') > -1:
                     newMsg = self.get_error_code_message(data[n], filename)
                 else:
-                    try:
-                        while data[n].strip().find(');') < 0:
-                            info += data[n].replace('\n', '').strip()
-                            n += 1
+                    while data[n].strip().find(');') < 0:
                         info += data[n].replace('\n', '').strip()
-                        # print('******',info)
-                        newMsg = self.get_error_code_message(info, filename)
-                    except:
-                        logger.info(data[n])
+                        n += 1
+                    info += data[n].replace('\n', '').strip()
+                    # print('******',info)
+                    newMsg = self.get_error_code_message(info, filename)
+
                 if not newMsg:
                     n += 1
                     continue
