@@ -347,3 +347,1048 @@
 [2019-09-24 10:04:53,869][default:INFO(483)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
 [2019-09-24 10:04:53,871][default:INFO(398)]--[errorcode]:update SC_CODE_COUNT
 [2019-09-24 10:04:53,874][default:INFO(500)]--[errorcode]:导出数据库文件...
+[2019-11-04 08:40:17,030][default:INFO(94)]--[master]:src:/Users/wan/PycharmProjects/ErrorCode/add
+[2019-11-04 08:40:27,963][default:INFO(108)]--[master]:dest:/Users/wan/PycharmProjects/ErrorCode/new
+[2019-11-04 08:40:30,249][default:INFO(469)]--[errorcode]:开始对***00000错误码进行编码
+[2019-11-04 08:40:30,249][default:INFO(470)]--[errorcode]:读取存量错误码信息
+[2019-11-04 08:40:30,259][default:INFO(475)]--[errorcode]:扫描文件信息
+[2019-11-04 08:40:30,261][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,261][default:INFO(311)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:40:30,263][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,263][default:INFO(329)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:40:30,263][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,263][default:INFO(311)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:40:30,263][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,263][default:INFO(329)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:40:30,263][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,264][default:INFO(311)]--[errorcode]:			error("EOSGL0004P");
+
+[2019-11-04 08:40:30,264][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,264][default:INFO(311)]--[errorcode]:				error("EOSGL0004Q");
+
+[2019-11-04 08:40:30,264][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,265][default:INFO(311)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 08:40:30,265][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,265][default:INFO(329)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 08:40:30,265][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,266][default:INFO(311)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 08:40:30,266][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,266][default:INFO(329)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 08:40:30,266][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,267][default:INFO(311)]--[errorcode]:				error("EOSGL0004T");
+
+[2019-11-04 08:40:30,267][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,267][default:INFO(311)]--[errorcode]:				error("EOSGL0004U");
+
+[2019-11-04 08:40:30,268][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,268][default:INFO(311)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:40:30,268][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,268][default:INFO(329)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:40:30,268][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,268][default:INFO(311)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:40:30,268][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,268][default:INFO(329)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:40:30,269][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,269][default:INFO(311)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 08:40:30,269][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,269][default:INFO(329)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 08:40:30,270][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,270][default:INFO(311)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,270][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,270][default:INFO(329)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,270][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,271][default:INFO(311)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,271][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,271][default:INFO(329)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,271][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,271][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,272][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,272][default:INFO(329)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,272][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,272][default:INFO(311)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,273][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,273][default:INFO(329)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,273][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,273][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,273][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,273][default:INFO(329)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,274][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,274][default:INFO(311)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,274][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,274][default:INFO(329)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:40:30,274][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,274][default:INFO(311)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 08:40:30,274][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,275][default:INFO(329)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 08:40:30,275][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,275][default:INFO(311)]--[errorcode]:			error("EOSGL0004Z");
+
+[2019-11-04 08:40:30,275][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,275][default:INFO(311)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 08:40:30,275][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,276][default:INFO(329)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 08:40:30,276][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,276][default:INFO(311)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 08:40:30,276][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,276][default:INFO(329)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 08:40:30,276][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,276][default:INFO(311)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 08:40:30,276][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,276][default:INFO(329)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 08:40:30,277][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,277][default:INFO(311)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,277][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,277][default:INFO(329)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,277][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,277][default:INFO(311)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 08:40:30,277][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,277][default:INFO(329)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 08:40:30,277][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,277][default:INFO(311)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,278][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,278][default:INFO(329)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,278][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,278][default:INFO(311)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 08:40:30,278][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,278][default:INFO(329)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 08:40:30,278][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,278][default:INFO(311)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 08:40:30,278][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,279][default:INFO(329)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 08:40:30,279][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,279][default:INFO(311)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,279][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,279][default:INFO(329)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,279][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,279][default:INFO(311)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,279][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,279][default:INFO(329)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,280][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,280][default:INFO(311)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 08:40:30,280][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,280][default:INFO(329)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 08:40:30,280][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,280][default:INFO(311)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,280][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:40:30,280][default:INFO(329)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:40:30,342][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,342][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 08:40:30,342][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,342][default:INFO(329)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 08:40:30,343][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,343][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 08:40:30,343][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,343][default:INFO(329)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 08:40:30,343][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,343][default:INFO(311)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 08:40:30,344][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,344][default:INFO(329)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 08:40:30,344][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,344][default:INFO(311)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 08:40:30,344][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,344][default:INFO(329)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 08:40:30,344][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,344][default:INFO(311)]--[errorcode]:			error("EOSGL0000T");
+
+[2019-11-04 08:40:30,345][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,345][default:INFO(311)]--[errorcode]:			error("EOSGL00000", "Customer:{0} Id invalid", custId);
+
+[2019-11-04 08:40:30,346][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,346][default:INFO(311)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 08:40:30,347][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,347][default:INFO(329)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 08:40:30,347][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,347][default:INFO(311)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 08:40:30,348][default:INFO(328)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:40:30,348][default:INFO(329)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 08:40:30,353][default:INFO(483)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
+[2019-11-04 08:40:30,353][default:INFO(398)]--[errorcode]:update SC_CODE_COUNT
+[2019-11-04 08:40:30,355][default:INFO(500)]--[errorcode]:导出数据库文件...
+[2019-11-04 08:50:29,544][default:INFO(94)]--[master]:src:/Users/wan/PycharmProjects/ErrorCode/add
+[2019-11-04 08:50:38,879][default:INFO(108)]--[master]:dest:/Users/wan/PycharmProjects/ErrorCode/new
+[2019-11-04 08:50:40,725][default:INFO(470)]--[errorcode]:开始对***00000错误码进行编码
+[2019-11-04 08:50:40,725][default:INFO(471)]--[errorcode]:读取存量错误码信息
+[2019-11-04 08:50:40,727][default:INFO(476)]--[errorcode]:扫描文件信息
+[2019-11-04 08:50:40,728][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,728][default:INFO(311)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:50:40,729][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,729][default:INFO(330)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:50:40,729][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,729][default:INFO(311)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:50:40,730][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,730][default:INFO(330)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:50:40,730][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,730][default:INFO(311)]--[errorcode]:			error("EOSGL0004P");
+
+[2019-11-04 08:50:40,730][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,730][default:INFO(311)]--[errorcode]:				error("EOSGL0004Q");
+
+[2019-11-04 08:50:40,730][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,730][default:INFO(311)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 08:50:40,730][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,730][default:INFO(330)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 08:50:40,731][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,731][default:INFO(311)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 08:50:40,731][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,731][default:INFO(330)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 08:50:40,731][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,731][default:INFO(311)]--[errorcode]:				error("EOSGL0004T");
+
+[2019-11-04 08:50:40,731][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,731][default:INFO(311)]--[errorcode]:				error("EOSGL0004U");
+
+[2019-11-04 08:50:40,731][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,731][default:INFO(311)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:50:40,732][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,732][default:INFO(330)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:50:40,732][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,732][default:INFO(311)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:50:40,732][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,732][default:INFO(330)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 08:50:40,732][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,732][default:INFO(311)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 08:50:40,732][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,733][default:INFO(330)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 08:50:40,733][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,733][default:INFO(311)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,733][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,733][default:INFO(330)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,733][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,733][default:INFO(311)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,733][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,733][default:INFO(330)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,734][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,734][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,734][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,734][default:INFO(330)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,734][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,734][default:INFO(311)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,734][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,734][default:INFO(330)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,734][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,734][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,735][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,735][default:INFO(330)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,735][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,735][default:INFO(311)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,735][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,735][default:INFO(330)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 08:50:40,736][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,736][default:INFO(311)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 08:50:40,736][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,736][default:INFO(330)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 08:50:40,736][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,736][default:INFO(311)]--[errorcode]:			error("EOSGL0004Z");
+
+[2019-11-04 08:50:40,736][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,736][default:INFO(311)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 08:50:40,736][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,736][default:INFO(330)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 08:50:40,737][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,737][default:INFO(311)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 08:50:40,737][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,737][default:INFO(330)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 08:50:40,737][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,737][default:INFO(311)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 08:50:40,737][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,737][default:INFO(330)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 08:50:40,738][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,738][default:INFO(311)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,738][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,738][default:INFO(330)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,738][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,738][default:INFO(311)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 08:50:40,738][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,738][default:INFO(330)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 08:50:40,738][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,739][default:INFO(311)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,739][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,739][default:INFO(330)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,739][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,739][default:INFO(311)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 08:50:40,739][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,739][default:INFO(330)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 08:50:40,739][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,739][default:INFO(311)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 08:50:40,740][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,740][default:INFO(330)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 08:50:40,740][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,740][default:INFO(311)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,740][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,740][default:INFO(330)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,740][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,740][default:INFO(311)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,740][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,740][default:INFO(330)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,741][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,741][default:INFO(311)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 08:50:40,741][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,741][default:INFO(330)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 08:50:40,741][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,741][default:INFO(311)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,741][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:50:40,741][default:INFO(330)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 08:50:40,817][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,817][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 08:50:40,817][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,817][default:INFO(330)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 08:50:40,818][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,818][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 08:50:40,818][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,818][default:INFO(330)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 08:50:40,818][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,818][default:INFO(311)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 08:50:40,819][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,819][default:INFO(330)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 08:50:40,819][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,819][default:INFO(311)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 08:50:40,819][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,819][default:INFO(330)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 08:50:40,819][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,820][default:INFO(311)]--[errorcode]:			error("EOSGL0000T");
+
+[2019-11-04 08:50:40,820][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,820][default:INFO(311)]--[errorcode]:			error("EOSGL00000", "Customer:{0} Id invalid", custId);
+
+[2019-11-04 08:50:40,821][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,821][default:INFO(311)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 08:50:40,821][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,821][default:INFO(330)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 08:50:40,821][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,821][default:INFO(311)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 08:50:40,822][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 08:50:40,822][default:INFO(330)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 08:50:40,827][default:INFO(484)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
+[2019-11-04 08:50:40,827][default:INFO(399)]--[errorcode]:update SC_CODE_COUNT
+[2019-11-04 08:50:40,830][default:INFO(501)]--[errorcode]:导出数据库文件...
+[2019-11-04 08:53:08,860][default:INFO(94)]--[master]:src:/Users/wan/PycharmProjects/ErrorCode/add
+[2019-11-04 08:53:15,938][default:INFO(108)]--[master]:dest:/Users/wan/PycharmProjects/ErrorCode/new
+[2019-11-04 08:53:17,709][default:INFO(470)]--[errorcode]:开始对***00000错误码进行编码
+[2019-11-04 08:53:17,710][default:INFO(471)]--[errorcode]:读取存量错误码信息
+[2019-11-04 08:53:17,713][default:INFO(476)]--[errorcode]:扫描文件信息
+[2019-11-04 08:55:41,012][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 08:55:41,012][default:INFO(311)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:01:11,465][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:11,465][default:INFO(330)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:01:11,467][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:11,468][default:INFO(311)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:01:13,079][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:13,081][default:INFO(330)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:01:13,083][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:13,083][default:INFO(311)]--[errorcode]:			error("EOSGL0004P");
+
+[2019-11-04 09:01:13,085][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:13,085][default:INFO(311)]--[errorcode]:				error("EOSGL0004Q");
+
+[2019-11-04 09:01:13,087][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:13,088][default:INFO(311)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:01:13,862][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:13,863][default:INFO(330)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:01:13,866][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:13,866][default:INFO(311)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:01:14,423][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:14,424][default:INFO(330)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:01:14,427][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:14,427][default:INFO(311)]--[errorcode]:				error("EOSGL0004T");
+
+[2019-11-04 09:01:14,430][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:14,430][default:INFO(311)]--[errorcode]:				error("EOSGL0004U");
+
+[2019-11-04 09:01:14,433][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:14,433][default:INFO(311)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:01:14,892][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:14,893][default:INFO(330)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:01:14,896][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:14,897][default:INFO(311)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:01:15,119][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:15,120][default:INFO(330)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:01:15,123][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:15,124][default:INFO(311)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 09:01:15,395][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:15,396][default:INFO(330)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 09:01:15,399][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:15,400][default:INFO(311)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,522][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,522][default:INFO(330)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,523][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,524][default:INFO(311)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,525][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,526][default:INFO(330)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,528][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,528][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,529][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,530][default:INFO(330)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,532][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,533][default:INFO(311)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,534][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,535][default:INFO(330)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,537][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,537][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,539][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,540][default:INFO(330)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,541][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,541][default:INFO(311)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,542][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,542][default:INFO(330)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:01:17,544][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,544][default:INFO(311)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 09:01:17,545][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,545][default:INFO(330)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 09:01:17,546][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,546][default:INFO(311)]--[errorcode]:			error("EOSGL0004Z");
+
+[2019-11-04 09:01:17,546][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,546][default:INFO(311)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:01:17,547][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,547][default:INFO(330)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:01:17,547][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,548][default:INFO(311)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 09:01:17,548][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,548][default:INFO(330)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 09:01:17,549][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,549][default:INFO(311)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 09:01:17,549][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,549][default:INFO(330)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 09:01:17,550][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,550][default:INFO(311)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,550][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,550][default:INFO(330)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,551][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,551][default:INFO(311)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 09:01:17,551][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,551][default:INFO(330)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 09:01:17,552][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,552][default:INFO(311)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,552][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,553][default:INFO(330)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,553][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,553][default:INFO(311)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:01:17,553][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,554][default:INFO(330)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:01:17,554][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,554][default:INFO(311)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:01:17,555][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,555][default:INFO(330)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:01:17,555][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,556][default:INFO(311)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,556][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,557][default:INFO(330)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,559][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,559][default:INFO(311)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,560][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,560][default:INFO(330)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,560][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,561][default:INFO(311)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:01:17,561][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,561][default:INFO(330)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:01:17,562][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,562][default:INFO(311)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,562][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:01:17,562][default:INFO(330)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:01:17,692][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,692][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:01:17,692][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,692][default:INFO(330)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:01:17,693][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,693][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:01:17,693][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,694][default:INFO(330)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:01:17,694][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,694][default:INFO(311)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 09:01:17,694][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,695][default:INFO(330)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 09:01:17,695][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,695][default:INFO(311)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 09:01:17,695][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,695][default:INFO(330)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 09:01:17,696][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,696][default:INFO(311)]--[errorcode]:			error("EOSGL0000T");
+
+[2019-11-04 09:01:17,696][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,697][default:INFO(311)]--[errorcode]:			error("EOSGL00000", "Customer:{0} Id invalid", custId);
+
+[2019-11-04 09:01:17,699][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,699][default:INFO(311)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 09:01:17,699][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,699][default:INFO(330)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 09:01:17,700][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,700][default:INFO(311)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 09:01:17,700][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:01:17,700][default:INFO(330)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 09:01:17,703][default:INFO(484)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
+[2019-11-04 09:01:17,703][default:INFO(399)]--[errorcode]:update SC_CODE_COUNT
+[2019-11-04 09:01:17,706][default:INFO(501)]--[errorcode]:导出数据库文件...
+[2019-11-04 09:02:15,020][default:INFO(94)]--[master]:src:/Users/wan/PycharmProjects/ErrorCode/add
+[2019-11-04 09:02:23,399][default:INFO(108)]--[master]:dest:/Users/wan/PycharmProjects/ErrorCode/new
+[2019-11-04 09:02:24,787][default:INFO(470)]--[errorcode]:开始对***00000错误码进行编码
+[2019-11-04 09:02:24,788][default:INFO(471)]--[errorcode]:读取存量错误码信息
+[2019-11-04 09:02:24,789][default:INFO(476)]--[errorcode]:扫描文件信息
+[2019-11-04 09:02:24,791][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,791][default:INFO(311)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:02:24,792][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,793][default:INFO(330)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:02:24,793][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,793][default:INFO(311)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:02:24,793][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,793][default:INFO(330)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:02:24,793][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,794][default:INFO(311)]--[errorcode]:			error("EOSGL0004P");
+
+[2019-11-04 09:02:24,794][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,794][default:INFO(311)]--[errorcode]:				error("EOSGL0004Q");
+
+[2019-11-04 09:02:24,794][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,794][default:INFO(311)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:02:24,794][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,794][default:INFO(330)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:02:24,794][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,795][default:INFO(311)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:02:24,795][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,795][default:INFO(330)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:02:24,795][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,796][default:INFO(311)]--[errorcode]:				error("EOSGL0004T");
+
+[2019-11-04 09:02:24,797][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,797][default:INFO(311)]--[errorcode]:				error("EOSGL0004U");
+
+[2019-11-04 09:02:24,798][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,798][default:INFO(311)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:02:24,799][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,799][default:INFO(330)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:02:24,800][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,800][default:INFO(311)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:02:24,801][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,801][default:INFO(330)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:02:24,802][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,802][default:INFO(311)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 09:02:24,803][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,803][default:INFO(330)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 09:02:24,804][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,805][default:INFO(311)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,806][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,806][default:INFO(330)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,807][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,807][default:INFO(311)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,808][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,809][default:INFO(330)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,809][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,810][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,811][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,811][default:INFO(330)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,811][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,812][default:INFO(311)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,812][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,812][default:INFO(330)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,813][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,813][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,814][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,814][default:INFO(330)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,815][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,815][default:INFO(311)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,815][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,815][default:INFO(330)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:02:24,815][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,815][default:INFO(311)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 09:02:24,815][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,815][default:INFO(330)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 09:02:24,816][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,816][default:INFO(311)]--[errorcode]:			error("EOSGL0004Z");
+
+[2019-11-04 09:02:24,816][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,816][default:INFO(311)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:02:24,816][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,816][default:INFO(330)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:02:24,816][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,816][default:INFO(311)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 09:02:24,817][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,817][default:INFO(330)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 09:02:24,817][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,817][default:INFO(311)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 09:02:24,817][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,817][default:INFO(330)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 09:02:24,817][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,817][default:INFO(311)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,817][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,817][default:INFO(330)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,818][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,818][default:INFO(311)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 09:02:24,818][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,818][default:INFO(330)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 09:02:24,818][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,818][default:INFO(311)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,818][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,818][default:INFO(330)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,818][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,819][default:INFO(311)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:02:24,819][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,819][default:INFO(330)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:02:24,819][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,819][default:INFO(311)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:02:24,819][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,819][default:INFO(330)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:02:24,819][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,819][default:INFO(311)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,820][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,820][default:INFO(330)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,820][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,820][default:INFO(311)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,820][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,820][default:INFO(330)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,820][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,820][default:INFO(311)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:02:24,820][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,820][default:INFO(330)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:02:24,821][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,821][default:INFO(311)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,821][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:02:24,821][default:INFO(330)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:02:24,885][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,885][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:02:24,886][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,886][default:INFO(330)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:02:24,887][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,887][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:02:24,888][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,888][default:INFO(330)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:02:24,888][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,888][default:INFO(311)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 09:02:24,888][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,889][default:INFO(330)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 09:02:24,889][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,890][default:INFO(311)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 09:02:24,890][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,890][default:INFO(330)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 09:02:24,891][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,891][default:INFO(311)]--[errorcode]:			error("EOSGL0000T");
+
+[2019-11-04 09:02:24,891][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,891][default:INFO(311)]--[errorcode]:			error("EOSGL00000", "Customer:{0} Id invalid", custId);
+
+[2019-11-04 09:02:24,892][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,893][default:INFO(311)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 09:02:24,893][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,893][default:INFO(330)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 09:02:24,893][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,893][default:INFO(311)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 09:02:24,893][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:02:24,893][default:INFO(330)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 09:02:24,896][default:INFO(484)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
+[2019-11-04 09:02:24,896][default:INFO(399)]--[errorcode]:update SC_CODE_COUNT
+[2019-11-04 09:02:24,898][default:INFO(501)]--[errorcode]:导出数据库文件...
+[2019-11-04 09:04:52,478][default:INFO(94)]--[master]:src:/Users/wan/PycharmProjects/ErrorCode/add
+[2019-11-04 09:04:59,135][default:INFO(108)]--[master]:dest:/Users/wan/PycharmProjects/ErrorCode/new
+[2019-11-04 09:05:01,259][default:INFO(470)]--[errorcode]:开始对***00000错误码进行编码
+[2019-11-04 09:05:01,259][default:INFO(471)]--[errorcode]:读取存量错误码信息
+[2019-11-04 09:05:01,261][default:INFO(476)]--[errorcode]:扫描文件信息
+[2019-11-04 09:05:01,262][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,262][default:INFO(311)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:05:01,264][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,264][default:INFO(330)]--[errorcode]:			error("EOSGL0004M", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:05:01,264][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,264][default:INFO(311)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:05:01,264][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,264][default:INFO(330)]--[errorcode]:			error("EOSGL0004N", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:05:01,264][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,264][default:INFO(311)]--[errorcode]:			error("EOSGL0004P");
+
+[2019-11-04 09:05:01,265][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,265][default:INFO(311)]--[errorcode]:				error("EOSGL0004Q");
+
+[2019-11-04 09:05:01,265][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,265][default:INFO(311)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:05:01,265][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,265][default:INFO(330)]--[errorcode]:				error("EOSGL0004R", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:05:01,265][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,265][default:INFO(311)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:05:01,265][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,265][default:INFO(330)]--[errorcode]:				error("EOSGL0004S", glRNAccount.getSecNostroAcc());
+
+[2019-11-04 09:05:01,266][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,266][default:INFO(311)]--[errorcode]:				error("EOSGL0004T");
+
+[2019-11-04 09:05:01,266][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,266][default:INFO(311)]--[errorcode]:				error("EOSGL0004U");
+
+[2019-11-04 09:05:01,266][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,266][default:INFO(311)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:05:01,266][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,267][default:INFO(330)]--[errorcode]:				error("EOSGL0004V", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:05:01,267][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,267][default:INFO(311)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:05:01,267][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,267][default:INFO(330)]--[errorcode]:				error("EOSGL0004W", glRNAccount.getNostroAcc());
+
+[2019-11-04 09:05:01,267][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,267][default:INFO(311)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 09:05:01,268][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,268][default:INFO(330)]--[errorcode]:				error("EOSGL0004X", glRNAutoMatch.getTelSerial());
+
+[2019-11-04 09:05:01,268][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,268][default:INFO(311)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,268][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,268][default:INFO(330)]--[errorcode]:warn("WOSGL00007", glRNAccount.getNostroAcc(), amt.toString(), msgAmt.toString(),glRNMsg.getStatementNo().toString(), glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,268][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,268][default:INFO(311)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,268][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,269][default:INFO(330)]--[errorcode]:warn("WOSGL00008", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,269][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,269][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,269][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,269][default:INFO(330)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,269][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,269][default:INFO(311)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,270][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,270][default:INFO(330)]--[errorcode]:warn("WOSGL00009", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,270][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,270][default:INFO(311)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,270][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,270][default:INFO(330)]--[errorcode]:warn("WOSGL00000", warningMsg, glRNAccount.getNostroAcc(), amt.toString(),msgAmt.toString(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,270][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,271][default:INFO(311)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,271][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,271][default:INFO(330)]--[errorcode]:warn("WOSGL0000A", glRNAccount.getNostroAcc(), glRNMsg.getStatementNo().toString(),glRNMsg.getSeqNo().toString());
+[2019-11-04 09:05:01,271][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,271][default:INFO(311)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 09:05:01,271][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,272][default:INFO(330)]--[errorcode]:					error("EOSGL0004Y", glRNMsg.getTelSerial());
+
+[2019-11-04 09:05:01,272][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,272][default:INFO(311)]--[errorcode]:			error("EOSGL0004Z");
+
+[2019-11-04 09:05:01,272][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,272][default:INFO(311)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:05:01,272][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,272][default:INFO(330)]--[errorcode]:					error("EOSGL00050", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:05:01,272][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,272][default:INFO(311)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 09:05:01,273][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,273][default:INFO(330)]--[errorcode]:							error("EOSGL00051", nostroAcc);
+
+[2019-11-04 09:05:01,273][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,273][default:INFO(311)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 09:05:01,273][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,273][default:INFO(330)]--[errorcode]:						error("EOSGL00052", nostroAcc);
+
+[2019-11-04 09:05:01,273][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,273][default:INFO(311)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,273][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,274][default:INFO(330)]--[errorcode]:					error("EOSGL00053", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,274][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,274][default:INFO(311)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 09:05:01,274][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,274][default:INFO(330)]--[errorcode]:					error("EOSGL00054", glRNMsg.getNostroAcc());
+
+[2019-11-04 09:05:01,274][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,274][default:INFO(311)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,275][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,275][default:INFO(330)]--[errorcode]:			error("EOSGL00055", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,275][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,275][default:INFO(311)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:05:01,275][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,275][default:INFO(330)]--[errorcode]:					error("EOSGL00056", glRNMatchFlow.getValueDate(), String.valueOf(glRNMatchFlow.getItemNo()));
+
+[2019-11-04 09:05:01,275][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,275][default:INFO(311)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:05:01,275][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,276][default:INFO(330)]--[errorcode]:					error("EOSGL00057", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:05:01,276][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,276][default:INFO(311)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,276][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,276][default:INFO(330)]--[errorcode]:					error("EOSGL00058", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,276][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,276][default:INFO(311)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,276][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,276][default:INFO(330)]--[errorcode]:					error("EOSGL00059", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,277][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,277][default:INFO(311)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:05:01,277][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,277][default:INFO(330)]--[errorcode]:				error("EOSGL0005A", glRNMatchFlow.getValueDate(), glRNMatchFlow.getItemNo().toString());
+
+[2019-11-04 09:05:01,277][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,277][default:INFO(311)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,277][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLRNMsgService.java
+[2019-11-04 09:05:01,277][default:INFO(330)]--[errorcode]:				error("EOSGL0005B", glRNMatchFlow.getTelSerial());
+
+[2019-11-04 09:05:01,339][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,339][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:05:01,339][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,339][default:INFO(330)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:05:01,339][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,340][default:INFO(311)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:05:01,340][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,340][default:INFO(330)]--[errorcode]:			succ("OK, A/C amend success");
+
+[2019-11-04 09:05:01,340][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,340][default:INFO(311)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 09:05:01,340][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,340][default:INFO(330)]--[errorcode]:			error("EOSGL0000R", acctNo);
+
+[2019-11-04 09:05:01,340][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,341][default:INFO(311)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 09:05:01,341][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,341][default:INFO(330)]--[errorcode]:			error("EOSGL0000S", acctNo);
+
+[2019-11-04 09:05:01,341][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,341][default:INFO(311)]--[errorcode]:			error("EOSGL0000T");
+
+[2019-11-04 09:05:01,341][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,341][default:INFO(311)]--[errorcode]:			error("EOSGL00000", "Customer:{0} Id invalid", custId);
+
+[2019-11-04 09:05:01,342][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,342][default:INFO(311)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 09:05:01,342][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,342][default:INFO(330)]--[errorcode]:			error("EOSGL0000U", glCode);
+
+[2019-11-04 09:05:01,342][default:INFO(310)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,343][default:INFO(311)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 09:05:01,343][default:INFO(329)]--[errorcode]:/Users/wan/PycharmProjects/ErrorCode/add/GLAccountService.java
+[2019-11-04 09:05:01,343][default:INFO(330)]--[errorcode]:			error("EOSGL0000V", glCode);
+
+[2019-11-04 09:05:01,348][default:INFO(484)]--[errorcode]:将新生成的错误码信息写入文件作为变更的脚本...
+[2019-11-04 09:05:01,348][default:INFO(399)]--[errorcode]:update SC_CODE_COUNT
+[2019-11-04 09:05:01,350][default:INFO(501)]--[errorcode]:导出数据库文件...

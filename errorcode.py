@@ -321,6 +321,7 @@ class ErrorCodeManager(object):
             self.logger.debug(data)
             p2 = re.compile(r'"(.*?)"[, ]+"(.*?)"(.*)')
             res = re.findall(p2, data)[0]
+            self.logger.debug(res)
             # res = list(filter(lambda s: s and (type(s) != str or len(s.strip()) > 0), res))
             # 判断该错误码是否是临时错误码，如果不是则对其进行重编编码
             errorcode = str(res[0]).upper()
@@ -328,13 +329,13 @@ class ErrorCodeManager(object):
             self.logger.info(filename)
             self.logger.info(msg)
             # raise ValueError('参数错误')
-            return
+            return msg
 
         # 校验错误码前5位　是否正确
         if modulename in self.module_list and modulename != errorcode[3:5]:
             self.logger.error(filename)
             self.logger.error(errorcode)
-            return
+            return msg
 
         if errorcode.endswith("00000"):
             newErrorCode = self.generat_new_error_code(errorcode)
@@ -355,6 +356,8 @@ class ErrorCodeManager(object):
             # 将存量错误码加入集合
             self.logger.debug(errorcode)
             self.errorcodeset.add(errorcode)
+            return msg
+
         self.logger.debug(new_msg)
 
         return new_msg
