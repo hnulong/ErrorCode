@@ -459,8 +459,8 @@ class ErrorCodeManager(object):
                 f.write(rowflag + res + '\n')
 
         # 删除已经无效的错误码记录
-        for line in deleteset:
-            cur.execute(line)
+        # for line in deleteset:
+        #     cur.execute(line)
 
         cur.close()
         conn.close()
