@@ -482,7 +482,7 @@ class ErrorCodeManager(object):
     def export_info(self):
         # 将新生成的错误码信息写入文件作为变更的脚本
         self.logger.info('将新生成的错误码信息写入文件作为变更的脚本...')
-        f = open(os.path.join(self.newScrPath, 'NEW_MSG_CODE.txt'), 'w', encoding='utf-8')
+        f = open(os.path.join(self.newScrPath, 'NEW_MSG_CODE.sql'), 'w', encoding='utf-8')
         for k, v in self.new_error_code_dict.items():
             # logger.info([k,v])
             v = str(v).replace("'", "''")
@@ -500,7 +500,7 @@ class ErrorCodeManager(object):
         self.update_code_index()
         self.logger.info("导出数据库文件...")
         self.operate_db()
-        self.bcp_db(os.path.join(self.newScrPath, 'bcp.txt'))
+        # self.bcp_db(os.path.join(self.newScrPath, 'bcp.txt'))
 
 
 if __name__ == '__main__':
