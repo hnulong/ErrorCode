@@ -452,11 +452,11 @@ class ErrorCodeManager(object):
                 sql = "delete from SC_MSG_CODE where code='" + row[2] + "';"
                 deleteset.append(sql)
                 self.logger.debug(sql)
-            else:
-                res = ''
-                for tmp in row:
-                    res += collumnflag + tmp
-                f.write(rowflag + res + '\n')
+            # 输出所有的行数据，而不只是打印增量的，因为增量错误码可能只是部分代码而不是整个工程代码
+            res = ''
+            for tmp in row:
+                res += collumnflag + tmp
+            f.write(rowflag + res + '\n')
 
         # 删除已经无效的错误码记录
         # for line in deleteset:
